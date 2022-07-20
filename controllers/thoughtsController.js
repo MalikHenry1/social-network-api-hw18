@@ -79,7 +79,7 @@ thoughtsControllers = {
     },
 
     // Delete Thought
-    deleteThoughts({ params }, res) {
+    deleteThought({ params }, res) {
         Thought.findOneAndDelete({ _id: params.id })
             .then(({ username }) => {
                 return User.findOneAndUpdate(
