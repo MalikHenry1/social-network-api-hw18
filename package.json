@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajcuddeback/social-network-api.git"
+    "url": "git+https://github.com/MalikHenry1/social-network-api-hw18.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ajcuddeback/social-network-api/issues"
+    "url": "https://github.com/MalikHenry1/social-network-api-hw18/issues"
   },
-  "homepage": "https://github.com/ajcuddeback/social-network-api#readme",
+  "homepage": "https://github.com/MalikHenry1/social-network-api-hw18#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.18"

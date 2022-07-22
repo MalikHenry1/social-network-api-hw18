@@ -8,7 +8,7 @@ const {
     deleteThought,
     createReaction,
     removeReaction
-} = require('../controllers/thoughtsControllers');
+} = require('../controllers/thoughtsController');
 
 router.route('/')
     .get(getThoughts)
