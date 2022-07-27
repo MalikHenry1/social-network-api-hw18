@@ -24,13 +24,11 @@ Video Functionality Link:
   
   In order to properly use this application, you must install Mongoose and Express.js packages, as their dependencies enable the functionality of the application. Once the necessary packages have been installed, clone the repository located at this link to your local machine: https://github.com/MalikHenry1/social-network-api-hw18. 
 
-  [Terminal](images/Screen Shot 2022-07-27 at 2.52.35 PM (2).png)
 
   ## Usage 
   
   As a backend application, Social Network API relies on MongoDB database (accessible as a part of Mongoose) to seed the data for the application. Sample data for this application is available in `data.js` and populated using the `seed.js` files. Once the application and its associated dependencies have been properly downloaded and installed, run the command `npm run start` which starts the server (in this specific case, the port will be localhost:3001). 
   
-  [Insomnia1](images/Screen Shot 2022-07-27 at 2.52.35 PM (2).png)
 
   Once the server has been started, copy and paste the port, localhost:3001, into the URL search bar. You will then be presented with several options corresponding to Users (get all users, get users by id, create user, update user, delete user, add freind, and delete friend), Thoughts (get all thoughts, get thought by id, create thought, update thought,  and delete thought), and Reaction (add reaction, and delete reaction). Upon being selected, each request will provide the user with the modified data corresponding to their search. 
 
