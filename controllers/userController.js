@@ -30,7 +30,7 @@ getUserById({ params }, res) {
         })
         .select('-__v')
         .then(dbUserData => {
-            if (!dbThoughtsData) {
+            if (!dbUserData) {
                 res.status(404).json({ message: 'No user was found at this ID.' });
                 return;
             }
