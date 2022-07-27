@@ -1,7 +1,9 @@
 # Social Network API
 This repository contains code for a social network API where users can share their thoughts with friends.
  
-Video Functionality Link: 
+Video Functionality Link: (part 1) https://drive.google.com/file/d/1BbexDN4mz3EH7QI7lpn1JpqSLvTbD-uT/view
+
+(part 2) https://drive.google.com/file/d/1FrqlPR8QgVISEaKO3k31IiTNLc75dQ-P/view
 
  License Used: IBM
 
